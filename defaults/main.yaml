@@ -1,0 +1,4 @@
+---
+telegraf__influxdata_key_url: "https://repos.influxdata.com/influxdb.key"
+telegraf__influxdata_repo: "{{ telegraf__default_influxdata_repo }}"
+telegraf__packages: "{{ telegraf__default_packages }}"

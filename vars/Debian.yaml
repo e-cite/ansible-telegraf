@@ -1,0 +1,6 @@
+---
+telegraf__default_influxdata_repo:
+  "deb https://repos.influxdata.com/{{ ansible_os_family }} \
+    {{ ansible_distribution_release }} stable"
+telegraf__default_packages:
+  - telegraf

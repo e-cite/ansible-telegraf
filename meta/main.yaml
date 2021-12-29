@@ -1,0 +1,22 @@
+---
+galaxy_info:
+  author: Andreas Dolp
+  description: "Installiert und konfiguriert die Software \"Telegraf\" auf
+    einem Debian host."
+  company: -/-
+  license: MIT
+
+  min_ansible_version: 2.1
+
+  platforms:
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
+
+  galaxy_tags:
+    - InfluxDB
+    - Telegraf
+    - timeseries
+
+dependencies: []
